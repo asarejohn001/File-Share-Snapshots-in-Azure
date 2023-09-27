@@ -8,9 +8,9 @@ These are the steps and configuration process I did to fulfill the objectives an
 2. Created a storage account
    
 3. Chose instance details
->[!NOTE]
->Pick the redundancy that best matches your IT and security policy for data protection. [Lean more](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy) about redundancy.
-
+   >[!NOTE]
+   >Pick the redundancy that best matches your IT and security policy for data protection. [Lean more](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy) about redundancy.
+   
    ![Screenshot 2023-09-26 at 01 01 50](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/361f5661-83a3-4c1b-871b-483365f82f73)
 
 4. Configured the data recovery
