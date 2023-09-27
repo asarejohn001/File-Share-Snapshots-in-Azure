@@ -11,11 +11,14 @@ These are the steps and configuration process to fullfill the objecives and solv
    >Pick the redundancy that best match your IT and securit policy for data protection. [Lean more](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy) about redundancy.
 4. Configure the data recovery
   ![Screenshot 2023-09-26 at 01 02 51](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/fd9b10e3-e975-47c9-9844-7ff2d653fcbe)
+5. Click on the Fileshare blade to create a new fileshare
+   ![Screenshot 2023-09-26 at 01 09 53](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/be2aa910-da0b-4607-b63c-09dc9d01b7f7)
+6. Configure the file share to meet your company's IT policy
+   ![Screenshot 2023-09-26 at 01 11 32](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/0769fe0a-9272-417f-8232-a60cd2c73fb6)
+
+
+
  
-
-
-
-
-Create a Storage Account and File Share
-Connect File Share to Windows VM
+## B. Connect File Share to Windows VM
+1. Connect to the VM where you will attac
 Take a Snapshot and Restore Data
