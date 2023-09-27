@@ -7,5 +7,5 @@ Company needs to ensure that backups are in place for all file shares. File vers
 Read my [objectives](objectives.md) and plans to approach this scenario.
 
 ## Solution
-Check out the steps and configuration process I use to achieve my objective and create a solution for the scenario.
+Check out the [steps and configuration](solution.md) process I use to achieve my [objective](objectives.md) and create a solution for the scenario.
 
