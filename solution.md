@@ -6,9 +6,9 @@ These are the steps and configuration process to fullfill the objecives and solv
 1. Log into the Azure portal and access the Storage account service
 2. Create a storage account
 3. Chose your instance details
-   ![Screenshot 2023-09-26 at 01 01 50](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/361f5661-83a3-4c1b-871b-483365f82f73)
    >[!NOTE]
    >Pick the redundancy that best match your IT and securit policy for data protection. [Lean more](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy) about redundancy.
+![Screenshot 2023-09-26 at 01 01 50](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/361f5661-83a3-4c1b-871b-483365f82f73)
 4. Configure the data recovery
   ![Screenshot 2023-09-26 at 01 02 51](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/fd9b10e3-e975-47c9-9844-7ff2d653fcbe)
 5. Click on the Fileshare blade to create a new fileshare
@@ -19,7 +19,9 @@ These are the steps and configuration process to fullfill the objecives and solv
 ## B. Connect File Share to Windows VM
 1. Connect to the VM where you will attach the fileshare
    >[!NOTE]
-   >I connect to a windows VM that I provisioned. I used MacOS RDP application to connect to the VM via the public IP address and user credentials.
- ![Screenshot 2023-09-26 at 01 14 49](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/68899b39-ffb4-45a4-b0c3-f489d49d18fc)
+   >I connected to a windows VM that I provisioned. I used MacOS RDP application to connect to the VM via its public IP address and user credentials.
+![Screenshot 2023-09-26 at 01 14 49](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/68899b39-ffb4-45a4-b0c3-f489d49d18fc)
+2. Copy a script from the Azure portal that will help you map the fileshare drive to the VM
+   ![Screenshot 2023-09-26 at 01 14 05](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/1d21d381-c60a-4a8d-9a85-c9f89eeb7885)
 
 Take a Snapshot and Restore Data
