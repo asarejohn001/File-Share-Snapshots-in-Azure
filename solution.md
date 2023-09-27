@@ -16,9 +16,10 @@ These are the steps and configuration process to fullfill the objecives and solv
 6. Configure the file share to meet your company's IT policy
    ![Screenshot 2023-09-26 at 01 11 32](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/0769fe0a-9272-417f-8232-a60cd2c73fb6)
 
-
-
- 
 ## B. Connect File Share to Windows VM
-1. Connect to the VM where you will attac
+1. Connect to the VM where you will attach the fileshare
+   >[!NOTE]
+   >I connect to a windows VM that I provisioned. I used MacOS RDP application to connect to the VM via the public IP address and user credentials.
+ ![Screenshot 2023-09-26 at 01 14 49](https://github.com/asarejohn001/File-Share-Snapshots-in-Azure/assets/137245223/68899b39-ffb4-45a4-b0c3-f489d49d18fc)
+
 Take a Snapshot and Restore Data
